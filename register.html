@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>STUDENT REGISTRATION</h1>
+    <p>Join Our School Community</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="staff.html">Staff</a>
+    <a href="students.html">Students</a>
+    <a href="register.html">Register</a>
+</nav>
+
+<main>
+    <h2>Admission Form</h2>
+    <p>
+        Welcome to our student registration page. Fill in the form below
+        to provide the basic information required for admission.
+    </p>
+
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="admission">Admission Number:</label>
+        <input type="text" id="admission" name="admission" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="class">Class:</label>
+        <select id="class" name="class" required>
+            <option value="">Select Class</option>
+            <option>Form 1</option>
+            <option>Form 2</option>
+            <option>Form 3</option>
+            <option>Form 4</option>
+        </select>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <label for="parent">Parent or Guardian Name:</label>
+        <input type="text" id="parent" name="parent" required>
+
+        <label for="phone">Parent or Guardian Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button type="submit">Register Student</button>
+    </form>
+
+    <p>
+        For more information, contact the school administration.
+    </p>
+</main>
+
+<footer>
+    <p>&copy; 2026 Doldol Boys High School</p>
+</footer>
+
+</body>
+</html>
